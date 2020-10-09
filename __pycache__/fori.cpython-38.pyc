@@ -1,0 +1,7 @@
+U
+
+O��_@�@sddlmZdd�ZdS)�)�subcCs�|�d�}t|dd|d�|d<|d�dd�|d<|d�dd�|d<|d�dd	�|d<|d�d
+d�|d<t|dd|d�|d<d�|�}|S)
+N� rZFOR�zrange(��)�,z TO �:�z<-)�splitr�replace�join)�a�bZ	makefinal�r�2C:\Users\ninte\OneDrive\Desktop\New folder\fori.py�mains
+
+rN)�rerrrrrr�<module>s
