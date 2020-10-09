@@ -1,6 +1,4 @@
 from re import sub
 def main(a):
-    b = a.split(" ")
-    b[1] = sub("=", "<-", b[1])
-    makefinala = "".join(b)
-    return makefinala
+    b = a.split("=")
+    return f"{b[0]} <- {b[1]}"
