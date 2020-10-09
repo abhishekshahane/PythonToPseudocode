@@ -1,6 +1,7 @@
 a <- True
 i <- 0
+b <- 2
 FOR i <- 1 TO 10
 FOR j <- 1 TO 43
-b<-b+1
+a <- b + 2
 OUTPUT "Hi"
