@@ -14,6 +14,6 @@ I got bored of converting Python to Pseudocode, so I made this.
 </ol>
 <h3>Exceptions</h3>
 <ol>
-   <li>In your while loop, remember to put spaces between variables and conditions(ie: while a != 2), otherwise the program will not work.</li>
+   <li>In your while loop, remember to not put brackets(ie: while a>5:). If you put brackets the program will not work.</li>
 </ol>
 <h2>Enjoy!</h2>
