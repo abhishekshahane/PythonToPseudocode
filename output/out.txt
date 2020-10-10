@@ -1,7 +1,4 @@
-a <- True
-i <- 0
-b <- 2
-FOR i <- 1 TO 10
-FOR j <- 1 TO 43
-a <- b + 2
-OUTPUT "Hi", a
+a<-0
+FOR i <- 1 TO  10
+a<-a-1
+OUTPUT "a is", a
