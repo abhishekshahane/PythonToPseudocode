@@ -9,7 +9,7 @@ file1 = open('output/out.txt', "w")
 for x in f:
     # Assuming there aren't a for loop in a if statement and so on
     # Edge case
-    if x.find("=")!=-1 and x.find("+=")==-1:
+    if x.find("=")!=-1 and x.find("+=")==-1 and x.find("-=")==-1:
         make = initialise.main(x)
         file1.write(make)
     elif x.find("+=")!=-1:
@@ -24,5 +24,9 @@ for x in f:
     elif "," in x and "print" in x:
         maked = harder.main(x)
         file1.write(maked)
+    elif x.find("-=")!=-1:
+        makee = increment.decrement(x)
+        file1.write(makee)
 
         
+
