@@ -12,4 +12,4 @@ I got bored of converting Python to Pseudocode, so I made this.
    <li>Put your non-indented python code in docker.py(Remember this only works for increments, print statements, for loops, initialising variables at the moment)</li>
   <li>Find your generated pseudocode in out.txt. </li>
 </ol>
-#Enjoy!
+# Enjoy!
