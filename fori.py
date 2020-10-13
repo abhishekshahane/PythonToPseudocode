@@ -12,5 +12,16 @@ def main(a):
     b[2] = sub(b[2], "<-", b[2])
     b[4] = b[4].replace(")", "")
     b[4] = b[4].replace(":", "")
-    return f"{b[0]} {b[1]} {b[2]} {b[3]} {b[4]}"
+    return f"{b[0]} {b[1]} {b[2]} {b[3]}{b[4]}"
+def whileloop(a):
+    if a.count("==")==1:
+        c = a.replace(":", "")
+        c = c.replace("==", " ")
+        c = c.split(" ")
+        c[0] = sub(c[0], "WHILE", c[0])
+        d = c + ["DO"]
+        t = list(map(lambda s: s.strip(), d))
+        return t
+
+
     
