@@ -1,4 +1,3 @@
-a<-0
-FOR i <- 1 TO  10
-a<-a-1
-OUTPUT "a is", a
+WHILE a==0 DO
+FOR i <- 1 TO 100
+a<-1
