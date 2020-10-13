@@ -1,2 +1,3 @@
-# Byte-compiled / optimized / DLL files
+#Ignore pycache and also setup
 __pycache__/
+setup/
