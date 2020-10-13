@@ -4,7 +4,7 @@ I got bored of converting Python to Pseudocode, so I made this.
 <ol>
   <li>docker.txt and out.txt are tests</li>
   <li>This whole project is still in development, so don't use it yet!!</li>
-  <li>Unfortunately, doesn't yet add STEP or NEXT or ENDIF</li>
+  <li>Unfortunately, doesn't yet add NEXT or ENDIF</li>
   <li>Don't indent your python code at all</li>
 </ol>
 <h3>How to use</h3>
