@@ -36,14 +36,17 @@ for x in f:
         file1.write(makee)
     elif x.find("while")!=-1:
         makef = fori.whileloop(x)
-        a = f"{makef[0]} {makef[1]}=={makef[2]} {makef[3]}\n"
-        file1.write(a)
+        file1.write(makef)
     else:
         raise Exception(f"Hmm, we didn't recongnize this line ({x}). We recommend you read README.md to make sure everything is correct!")
         
 file1.close()
         
 
+        
+        
+
+        
         
         
 
