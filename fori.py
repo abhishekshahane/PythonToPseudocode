@@ -12,7 +12,6 @@ def main(a):
     b[4] = b[4].replace(")", "")
     b[4] = b[4].replace(":", "")
     j = f"STEP {b[1]}+=1"
-    print(j)
     c = b + [j]
     t = list(map(lambda s: s.strip(), c))
     return t
