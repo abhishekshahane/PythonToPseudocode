@@ -27,5 +27,3 @@ def whileloop(a):
 
 
     
-
-    
