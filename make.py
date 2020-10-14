@@ -1,4 +1,5 @@
 from re import sub, findall
+import os
 import fori
 import initialise
 import out
@@ -6,7 +7,12 @@ import increment
 import harder
 f = open("text/docker.txt", "r")
 file1 = open('output/out.txt', "w")
+filesize = os.path.getsize("text/docker.txt")
+if filesize==0:
+    raise Exception(f"Filesize: {filesize}. Hmm, looks like your file is empty to us...")
 for x in f:
+    if "    " in x:
+        raise Exception("Hmm, looks like you've indented your code, please unindent it.")
     # Assuming there aren't a for loop in a if statement and so on
     # Edge case
     if x.find("=")!=-1 and x.find("+=")==-1 and x.find("-=")==-1 and x.find("==")==-1 and x.find(">=")==-1 and x.find("<=")==-1 and x.find("!=")==-1:
@@ -32,8 +38,13 @@ for x in f:
         makef = fori.whileloop(x)
         a = f"{makef[0]} {makef[1]}=={makef[2]} {makef[3]}\n"
         file1.write(a)
+    else:
+        raise Exception(f"Hmm, we didn't recongnize this line ({x}). We recommend you read README.md to make sure everything is correct!")
         
 file1.close()
+        
+
+        
         
 
         
