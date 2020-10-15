@@ -5,6 +5,8 @@ import initialise
 import out
 import increment
 import harder
+#Line number
+line = 1
 f = open("text/docker.txt", "r")
 file1 = open('output/out.txt', "w")
 filesize = os.path.getsize("text/docker.txt")
@@ -38,13 +40,19 @@ for x in f:
         makef = fori.whileloop(x)
         file1.write(makef)
     else:
-        raise Exception(f"Hmm, we didn't recongnize this line ({x}). We recommend you read README.md to make sure everything is correct!")
-        
+        raise Exception(f"Hmm, we didn't recongnize this line ({x}) on line {line}. We recommend you read README.md to make sure everything is correct!")
+    line+=1
 file1.close()
         
 
         
         
+
+        
+
+
+        
+
 
         
         
