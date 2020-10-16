@@ -23,7 +23,35 @@ def whileloop(a):
         c[0] = sub(c[0], "WHILE", c[0])
         d = c + ["DO"]
         t = list(map(lambda s: s.strip(), d))
-        return t
+        f = "=="
+        return f"{t[0]} {t[1]}{f}{t[2]} {t[3]}\n"
+    elif a.count(">=")==1:
+        c = a.replace(":", "")
+        c = c.replace(">=", " ")
+        c = c.split(" ")
+        c[0] = sub(c[0], "WHILE", c[0])
+        d = c + ["DO"]
+        t = list(map(lambda s: s.strip(), d))
+        f = ">="
+        return f"{t[0]} {t[1]}{f}{t[2]} {t[3]}\n"
+    elif a.count("<=")==1:
+        c = a.replace(":", "")
+        c = c.replace("<=", " ")
+        c = c.split(" ")
+        c[0] = sub(c[0], "WHILE", c[0])
+        d = c + ["DO"]
+        t = list(map(lambda s: s.strip(), d))
+        f = "<="
+        return f"{t[0]} {t[1]}{f}{t[2]} {t[3]}\n"
+    elif a.count("!=")==1:
+        c = a.replace(":", "")
+        c = c.replace("!=", " ")
+        c = c.split(" ")
+        c[0] = sub(c[0], "WHILE", c[0])
+        d = c + ["DO"]
+        t = list(map(lambda s: s.strip(), d))
+        f = "!="
+        return f"{t[0]} {t[1]}{f}{t[2]} {t[3]}\n"
 
 
     

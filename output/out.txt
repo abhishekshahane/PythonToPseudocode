@@ -1,5 +1,2 @@
-a<-0
-WHILE a==0 DO
-FOR i<- 1 TO 100 STEP i+=1
-a <- a+1
-OUTPUT a
+IF sdasd >= a
+THEN
