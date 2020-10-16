@@ -46,27 +46,3 @@ for x in f:
         raise Exception(f"Hmm, we didn't recongnize this line ({x}) on line {line}. We recommend you read README.md to make sure everything is correct!")
     line+=1
 file1.close()
-        
-
-        
-        
-
-        
-
-
-        
-
-
-
-        
-
-
-        
-        
-        
-
-        
-
-
-        
-
