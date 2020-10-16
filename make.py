@@ -39,6 +39,9 @@ for x in f:
     elif x.find("while")!=-1:
         makef = fori.whileloop(x)
         file1.write(makef)
+    elif x.find("if")!=-1:
+        makeg = increment.ifstatement(x) + "\nTHEN"
+        file1.write(makeg)
     else:
         raise Exception(f"Hmm, we didn't recongnize this line ({x}) on line {line}. We recommend you read README.md to make sure everything is correct!")
     line+=1
@@ -49,6 +52,10 @@ file1.close()
         
 
         
+
+
+        
+
 
 
         
