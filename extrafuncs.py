@@ -5,6 +5,7 @@ def check(f):
 class String:
     def __init__(self, give):
         self.give = give
+    #Wrote my own alphanum method cause the other one didn't work for me.
     def alphanum(self):
         stra=""
         c = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_'
