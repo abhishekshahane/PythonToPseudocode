@@ -10,5 +10,5 @@ class String:
         c = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_'
         for i in range(len(self.give)):
             if self.give[i] not in c and self.give[i] not in ' ':
-                stra+=self.give[i]
+                stra += self.give[i]
         return stra
