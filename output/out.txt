@@ -1,4 +1,9 @@
 a<-0
-IF a == 21
+g<-0
+u<-0
+IF a > 3
 THEN
-a<- a + 1
+OUTPUT "Hello"
+ELSE IF a != 3
+THEN
+OUTPUT "Printing var names", a, g, u
