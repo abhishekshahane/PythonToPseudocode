@@ -1,2 +1,4 @@
-IF sdasd >= a
+a<-0
+IF a == 21
 THEN
+a<- a + 1

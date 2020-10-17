@@ -14,7 +14,7 @@ if filesize==0:
     raise Exception(f"Filesize: {filesize}. Hmm, looks like your file is empty to us...")
 for x in f:
     if "    " in x:
-        raise Exception("Hmm, looks like you've indented your code, please unindent it.")
+        raise Exception(f"Hmm, looks like you've indented your code on line {line}, please unindent it.")
     # Assuming there aren't a for loop in a if statement and so on
     # Edge case
     if x.find("=")!=-1 and x.find("+=")==-1 and x.find("-=")==-1 and x.find("==")==-1 and x.find(">=")==-1 and x.find("<=")==-1 and x.find("!=")==-1:
@@ -40,7 +40,7 @@ for x in f:
         makef = fori.whileloop(x)
         file1.write(makef)
     elif x.find("if")!=-1:
-        makeg = increment.ifstatement(x) + "\nTHEN"
+        makeg = increment.ifstatement(x) + "\nTHEN\n"
         file1.write(makeg)
     else:
         raise Exception(f"Hmm, we didn't recongnize this line ({x}) on line {line}. We recommend you read README.md to make sure everything is correct!")

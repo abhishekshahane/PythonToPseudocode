@@ -1,1 +1,3 @@
-if sdasd>=a:
+a=0
+if a==21:
+a+=1
