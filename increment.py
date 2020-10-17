@@ -27,3 +27,4 @@ def elseif(a):
     j = list(map(lambda s: s.strip(), c))
     f=b.strip()
     return "{} {} {} {}".format(j[0], j[1], f, j[2])
+
