@@ -16,3 +16,12 @@ def ifstatement(a):
     j = list(map(lambda s: s.strip(), c))
     f = f.strip()
     return "{} {} {} {}".format(j[0], j[1], f, j[2])
+def elseif(a):
+    a=str(a)
+    a = a.replace(":", "")
+    c = findall(r"[\w']+", a)
+    f = alphnum(a)
+    c[0] = sub(c[0], "ELSE IF", c[0])
+    j = list(map(lambda s: s.strip(), c))
+    f = f.strip()
+    return "{} {} {} {}".format(j[0], j[1], f, j[2])
