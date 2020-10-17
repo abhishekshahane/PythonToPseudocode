@@ -1,6 +1,6 @@
-a<-0
-g<-0
-u<-0
+a <- 0
+g <- 0
+u <- 0
 IF a > 3
 THEN
 OUTPUT "Hello"
