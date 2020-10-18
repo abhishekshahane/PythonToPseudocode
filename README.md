@@ -16,4 +16,8 @@ I got bored of converting Python to Pseudocode, so I made this.
    <li>In your while loop and if statements, remember to not put brackets(ie: while a>5:). If you put brackets the program will not work.</li>
    <li>Also, your python code has to run perfectly otherwise.</li>
 </ol>
+<h3>Want to contribute but don't understand pseudocode?</h3>
+<ul>
+  <li>No need to worry! Simply read this PDF on pseudocode(only looping, conditionals and the basic stuff including above) at the moment: https://pdfhost.io/v/2DAZTyjip_Pseudocode_Syntaxpdf.pdf. It should be easy to understand. You can then open a PR. I would love it if you could contribute to this project!</li>
+</ul>
 <h2>Enjoy!</h2>
