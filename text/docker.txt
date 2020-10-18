@@ -5,3 +5,5 @@ if a>3:
 print("Hello")
 elif a != 3:
 print("Printing var names", a, g, u)
+else:
+print("Hi")
