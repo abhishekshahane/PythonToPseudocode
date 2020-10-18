@@ -7,3 +7,5 @@ OUTPUT "Hello"
 ELSE IF a != 3
 THEN
 OUTPUT "Printing var names", a, g, u
+ELSE
+OUTPUT "Hi"
