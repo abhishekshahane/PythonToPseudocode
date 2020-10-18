@@ -52,6 +52,12 @@ for x in f:
     elif x.find("elif")!=-1:
         makeh = increment.elseif(x) + "\nTHEN\n"
         file1.write(makeh)
+    # I shouldn't have changed on the spot but this is so little that I did
+    elif x.find("else")!=-1:
+        a = str(x)
+        a=a.replace(":", "")
+        a=a.replace("else", "ELSE")
+        file1.write(a)
 
     
     else:
@@ -61,4 +67,3 @@ print("........................")
 print("Executed sucessfully in: ", time.time()-start_time, " seconds.")
 print("........................")
 file1.close()
-
