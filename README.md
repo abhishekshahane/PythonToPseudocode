@@ -6,7 +6,8 @@ I got bored of converting Python to Pseudocode, so I made this.
   <li>This whole project is still in development, so don't use it yet!!</li>
   <li>Unfortunately, doesn't yet add NEXT or ENDIF</li>
 </ol>
-# How to use
+
+How to use
 
 1. Put your python code in docker.txt(Remember this only works for increments, print statements, for loops, while loops and initialising variables at the moment.)
 
