@@ -9,7 +9,7 @@ I got bored of converting Python to Pseudocode, so I made this.
 <h3>How to use</h3>
 <ol>
    <li>Put your python code in docker.txt(Remember this only works for increments, print statements, for loops, while loops and initialising variables at the moment.)</li>
-  <li>Find your generated pseudocode in out.txt. </li>
+  <li>Next, luckily for you, we've made a CLI to make this process easier. Simply run `--help` to see a help message or to run, type `cli.py --run [FILE]`, where [FILE] is your file(incase you wanted to migrate from make.py). Also, in case you were wondering, I used argparse to build that. Anyways, signing off on the project for now. Abhishek - 20/10/2020 </li>
 </ol>
 <h3>Exceptions</h3>
 <ol>
