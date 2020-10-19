@@ -8,7 +8,7 @@ I got bored of converting Python to Pseudocode, so I made this.
 
 <b>How to use.</b>
 
-1. Put your python code in docker.txt(Remember this only works for increments, print statements, for loops, while loops and initialising variables at the moment.)
+1. Put your python code in docker.txt(Remember this only works for increments, print statements, for loops, if statements(AKA conditionals), while loops and initialising variables at the moment.)
 
 2. Next, luckily for you, we've made a CLI to make this process easier. Simply run `--help` to see a help message or to run, type `cli.py --run [FILE]`, where [FILE] is your file(incase you wanted to migrate from make.py). Also, in case you were wondering, I used argparse to build that. Anyways, signing off on the project for now. Abhishek - 20/10/2020.
 <br></br>
