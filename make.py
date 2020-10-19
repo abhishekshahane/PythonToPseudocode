@@ -20,6 +20,17 @@ if filesize == 0:
 for x in f:
     x = x.lstrip()
     # Assuming there aren't a for loop in a if statement and so on
+
+    # Removes parentheses in if statements
+    if '(' in x and ')' in x and 'if' in x or 'elif' in x:
+        x = x.replace(")", "")
+        x = x.replace("(", "")
+
+    # Removes parentheses in while loops
+    if '(' in x and ')' in x and 'while' in x :
+        x = x.replace(")", "")
+        x = x.replace("(", "")
+
     # Edge case
     if x.find("=")!=-1 and x.find("+=")==-1 and x.find("-=")==-1 and x.find("==")==-1 and x.find(">=")==-1 and x.find("<=")==-1 and x.find("!=")==-1:
         make = initialise.main(x)
