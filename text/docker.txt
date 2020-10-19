@@ -1,7 +1,9 @@
-a=0
-g=0
-u=0
+a = 0
+g = 0
+u = 0
 if a>3:
 print("Hello")
 elif a != 3:
 print("Printing var names", a, g, u)
+else:
+print("Hi")
