@@ -70,9 +70,11 @@ for x in f:
         a=a.replace(":", "")
         a=a.replace("else", "ELSE")
         file1.write(a)
-
+    elif x.find("break")!=-1:
+        file1.write(str(x).upper())
     line+=1
 print("........................")
 print("Executed sucessfully in: ", time.time()-start_time, " seconds.")
 print("........................")
 file1.close()
+
