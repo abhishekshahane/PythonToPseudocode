@@ -2,6 +2,7 @@
 I got bored of converting Python to Pseudocode, so I made this.
 <h3>Some notes to be made</h3>
 <ol>
+  <li>This program can and will make mistakes, it is not meant to be a complete substitute for writing your pseudocode, but to make the process easier.</li>
   <li>docker.txt and out.txt are tests</li>
   <li>Unfortunately, doesn't yet add NEXT or ENDIF</li>
 </ol>
