@@ -16,7 +16,7 @@ I got bored of converting Python to Pseudocode, so I made this.
 
 <h3>Exceptions</h3>
 <ol>
-   <li>Your python code has to run perfectly otherwise.</li>
+   <li>Your python code has to run perfectly, otherwise the program will start glitching.</li>
 </ol>
 <h3>Want to contribute but don't understand pseudocode?</h3>
 <ul>
