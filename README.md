@@ -11,7 +11,7 @@ I got bored of converting Python to Pseudocode, so I made this.
 
 1. Put your python code in docker.txt(Remember this only works for increments, print statements, for loops, if statements(AKA conditionals), while loops and initialising variables at the moment.)
 
-2. Next, luckily for you, we've made a CLI to make this process easier. Simply run `cli.py --help` to see a help message or to run, type `cli.py --run [FILE]`, where [FILE] is your file(incase you wanted to migrate from make.py). Also, in case you were wondering, I used argparse to build that. Anyways, signing off on the project for now. Abhishek - 20/10/2020.
+2. Next, luckily for you, we've made a CLI to make this process easier. Simply run `cli.py --help` to see a help message or to run, type `cli.py --run [FILE]`, where [FILE] is your file(incase you wanted to migrate from make.py), and if those two commands don't work, simply run `python [FILE].py` and everything should work perfectly. Also, in case you were wondering, I used argparse to build that. Anyways, signing off on the project for now. Abhishek - 20/10/2020.
 <br></br>
 
 <h3>Exceptions</h3>
