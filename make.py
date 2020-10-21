@@ -71,9 +71,6 @@ for x in f:
         a=a.replace("else", "ELSE")
         file1.write(a)
 
-    
-    else:
-        raise Exception(f"Hmm, we didn't recongnize this line ({x}) on line {line}. We recommend you read README.md to make sure everything is correct!")
     line+=1
 print("........................")
 print("Executed sucessfully in: ", time.time()-start_time, " seconds.")
